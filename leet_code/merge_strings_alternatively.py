@@ -28,8 +28,8 @@ class Solution:
 
         if i < len(word1):
             parts.append(word1[i:])
-        if i < len(word2):
-            parts.append(word2[i:])
+        if j < len(word2):
+            parts.append(word2[j:])
             
         return ''.join(parts)
 
